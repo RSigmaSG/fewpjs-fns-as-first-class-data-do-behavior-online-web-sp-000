@@ -25,6 +25,5 @@ function greet(curr) {
 /* Write your implementation of displayMessage() */
 function displayMessage(input) {
   const greeting = document.getElementById('greeting');
-  console.log(input);
-  greeting.innerHTML = input;
+  greeting.innerText = input;
 }
